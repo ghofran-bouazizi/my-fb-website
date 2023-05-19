@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>facebook</title>
+        <style>
+            .bigdiv {
+                display: grid;
+                grid-template-columns: 150px 150px 150px;
+                column-gap : 50px;
+            }
+            img {
+                height: 170px;
+                width: 100%;
+                border-radius: 5px;
+            }
+            .p1,
+            .p2 {
+                padding-left: 10px;
+            }
+            .p1 {
+                font-weight:bold;
+                font-size: 20px;
+                margin-top:3px;
+                margin-bottom: 0px ;
+            }
+            .p2 {
+                font-size: 15px;
+                margin-top:3px;
+                color:grey;
+            }
+            button {
+                margin-left: 10px;
+                margin-bottom: 10px;
+                border: none;
+                background-color:rgb(1, 103, 187);
+                color:white;
+                font-weight: bold;
+                font-size: 15px;
+                padding: 10px;
+                border-radius: 5px;
+            }
+            button:hover {
+                opacity:0.8;
+                cursor: pointer;
+            }
+            button:active {
+                opacity:0.5;
+
+            }
+            p:hover {
+                text-decoration: underline;
+
+            }
+            .smalldiv {
+                box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.486);
+                border-radius: 5px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="bigdiv">
+            <div class="smalldiv">
+                <div>
+                    <img src="cat.jpg">
+                </div>
+                <div>
+                    <p class="p1" >Oliver</p>
+                    <p class="p2">2 mutual friends</p>
+                    <button>Add Friend</button>
+                </div>
+            </div>
+            <div class="smalldiv">
+                <div>
+                    <img src="photo.jpg">
+                </div>
+                <div>
+                    <p class="p1">Mimi</p>
+                    <p class="p2">3 mutual friends</p>
+                    <button>Add Friend</button>
+                </div>
+            </div>
+            <div class="smalldiv">
+                <div>
+                    <img src="puppy.jpg">
+                </div>
+                <div>
+                    <p class="p1">Rex</p>
+                    <p class="p2">4 mutual friends</p>
+                    <button>Add Friend</button>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
